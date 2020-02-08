@@ -6,23 +6,16 @@
 2. Ipify (A ip finding api)
 3. Geocode (Gem used to find location based on different approches, i used it
    with the  ip returned form Ipify Of course)(https://github.com/alexreisner/geocoder) 
-## Installationi
+4. net/http (a technology alredy included with rails that can be used for
+   calling API's)
+5. JSON (Gem used to control better the use of JSON giving you some added
+   options)
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+## Problems
 
-```bash
-pip install foobar
-```
-
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
+* Docker
+  Using docker even tho an amazing learning experience for me so far was also is
+  an obstacle sometime since stuff you do on it is different
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
