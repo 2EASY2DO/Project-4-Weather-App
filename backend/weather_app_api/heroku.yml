@@ -1,6 +1,6 @@
 build:
   docker:
-    db: DockerFile
+    db: Dockerfile
     web: Dockerfile
 run:
   web: bash -c "rm -f tmp/pids/server.pid && rails db:reset && bundle exec rails s -p 3000 -b '0.0.0.0'"
